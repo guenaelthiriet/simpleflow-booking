@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>order-processing</artifactId>
+    <artifactId>simpleflow-booking</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <spring.version>4.3.14.RELEASE</spring.version>
-        <freemarker.version>2.3.9</freemarker.version>
+        <spring.version>5.2.6.RELEASE</spring.version>
+        <freemarker.version>2.3.30</freemarker.version>
         <aspectj.version>1.9.1</aspectj.version>
         <jre.version>1.8</jre.version>
         <annotations.dir>target/generated-sources/annotations</annotations.dir>
@@ -89,7 +89,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13</version>
             <scope>compile</scope>
             <optional>true</optional>
         </dependency>
@@ -150,7 +150,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.9.1</version>
+                <version>2.10.4</version>
                 <configuration>
                     <excludePackageNames>*.internal:*.transform</excludePackageNames>
                     <minmemory>128m</minmemory>
